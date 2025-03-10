@@ -1,0 +1,22 @@
+{
+  "name": "sls002-httpapi-nodejs-aws",
+  "version": "1.0.0",
+  "description": "AWS Simple HTTP Endpoint example in NodeJS",
+  "main": "handler.js",
+  "type": "module",
+  "author": "Shiv Srivastava",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "serverless-bundle": "^6.3.1",
+    "serverless-pseudo-parameters": "^2.6.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.585.0",
+    "@aws-sdk/lib-dynamodb": "^3.585.0",
+    "serverless-http": "^3.2.0"
+  }
+}
